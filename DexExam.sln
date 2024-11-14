@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3E483198-04B0-49B4-AFF7-71D9F6A6D173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{506B9022-EA41-4CCD-948A-956CFAEACDFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{C5C78812-7633-493B-BBD2-97E9BE736068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{868F2155-189D-48DE-A1D6-D01CD4FD2BE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EBF7272-0B0E-46AD-9FCE-B97A1C647A5B}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E483198-04B0-49B4-AFF7-71D9F6A6D173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E483198-04B0-49B4-AFF7-71D9F6A6D173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E483198-04B0-49B4-AFF7-71D9F6A6D173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E483198-04B0-49B4-AFF7-71D9F6A6D173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506B9022-EA41-4CCD-948A-956CFAEACDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506B9022-EA41-4CCD-948A-956CFAEACDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506B9022-EA41-4CCD-948A-956CFAEACDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506B9022-EA41-4CCD-948A-956CFAEACDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C78812-7633-493B-BBD2-97E9BE736068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C78812-7633-493B-BBD2-97E9BE736068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C78812-7633-493B-BBD2-97E9BE736068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C78812-7633-493B-BBD2-97E9BE736068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868F2155-189D-48DE-A1D6-D01CD4FD2BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868F2155-189D-48DE-A1D6-D01CD4FD2BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868F2155-189D-48DE-A1D6-D01CD4FD2BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868F2155-189D-48DE-A1D6-D01CD4FD2BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
